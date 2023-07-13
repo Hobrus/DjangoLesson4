@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Details</title>
+</head>
+<body>
+    <h1>{{ product.name }}</h1>
+    <p>Цена = {{ product.price }}р</p>
+    <p>Остатки = {{ product.quantity }}</p>
+    <a href="{% url 'product_list' %}">Назад</a>
+</body>
+</html>
